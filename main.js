@@ -55,6 +55,7 @@ var longestWord = function(string) {
 				longest = words[i]
 			}
 	}
+	console.log (longest)
 	return longest	
 }
 longestWord("John quickly defenestrated the offending arachnid.")
